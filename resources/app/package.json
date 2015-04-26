@@ -1,0 +1,8 @@
+{
+  "name": "atm",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "lodash": "^3.7.0"
+  }
+}

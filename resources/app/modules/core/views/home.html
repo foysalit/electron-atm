@@ -1,0 +1,9 @@
+<div ng-controller="HomeController as home">
+	<a ui-sref="listFeeds">Feeds</a>
+	<h1 data-ng-init="home.init()">{{home.test}}</h1>
+	<ul>
+		<li ng-repeat="item in home.items">
+			{{item.text}}
+		</li>
+	</ul>
+</div>
